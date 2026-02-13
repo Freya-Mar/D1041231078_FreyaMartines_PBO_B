@@ -14,6 +14,5 @@ public class p041NamingConvention {
         System.out.println("Status: " + isActive);
         System.out.println("Konstanta PI: " + PI);
 
-
     }
 }
