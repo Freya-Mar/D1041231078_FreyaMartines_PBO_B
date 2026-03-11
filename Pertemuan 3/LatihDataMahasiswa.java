@@ -1,7 +1,7 @@
 public class LatihDataMahasiswa {
 
     public static void main(String[] args) {
-        long nim = 2301010001L;
+        long nim = 2301010001L; 
         String nama = "Budi Santoso";
         char kelas = 'A';
         boolean Aktif = true;
