@@ -1,14 +1,20 @@
 public class LatihanValidasi {
     public static void main(String[] args) {
-
-        int[] percobaan = {-10, 150, 85}; 
-        int i = 0;
+ 
+        int angka = 0;
         int nilai;
 
         System.out.println("=== VALIDASI NILAI UJIAN ===");
 
         do {
-            nilai = percobaan[i];
+            angka++;
+            if (angka == 1) {
+                nilai = -10;
+            } else if (angka == 2) { 
+                nilai = 150;
+            }
+            else nilai = 85;
+
             System.out.println("\nPercobaan input: " + nilai);
 
             if (nilai < 0 || nilai > 100) {
@@ -17,8 +23,7 @@ public class LatihanValidasi {
                 System.out.println("Nilai valid: " + nilai);
             }
 
-            i++;
-
         } while (nilai < 0 || nilai > 100);
+
     }
 }
